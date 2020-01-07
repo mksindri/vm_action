@@ -50,7 +50,7 @@ VM_REFERENCE = {
 }
 
 class VmCreate(Action):
-    def run(self):
+    def run(self, greeting='VM'):
         #----
         """Resource Group management example."""
         #
