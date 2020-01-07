@@ -1,13 +1,13 @@
 ---
 name: action1
 pack: vm_action
-runner_type: "local-shell-script"
+runner_type: "python-script"
 description: Action Process List!
 enabled: true
-entry_point: act.sh
-parameters:
-    greeting:
-        type: string
-        description: Greeting you want to say to StackStorm (i.e. Hello, Hi, Yo, etc.)
-        required: true
-        #position: 11
+entry_point: action1.py
+#parameters:
+#    greeting:
+#        type: string
+#        description: Greeting you want to say to StackStorm (i.e. Hello, Hi, Yo, etc.)
+#        required: true
+#        #position: 11

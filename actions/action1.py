@@ -101,4 +101,4 @@ class Action1(Action):
         #     GROUP_NAME, VM_NAME)
         # async_vm_delete.wait()
         delete = "fsdfsdfsdf "
-        return delete
+        return
