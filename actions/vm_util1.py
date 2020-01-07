@@ -213,15 +213,15 @@ class VmCreate(Action):
 
         print('\nTop 5 process of the vm')
         get_top_process(compute_client)
-        get_top_process.wait(60)
+        #get_top_process.wait(60)
 
         print('\nDisc Utilisation of the vm')
         get_disc_utilisation(compute_client)
-        get_disc_utilisation.wait(60)
+        #get_disc_utilisation.wait(60)
 
         print('\nCPU Utilisation of the vm')
         get_cpu_utilisation(compute_client)
-        get_cpu_utilisation.wait(60)
+        #get_cpu_utilisation.wait(60)
         # Delete VM
         # print('\nDelete VM')
         # async_vm_delete = compute_client.virtual_machines.delete(
