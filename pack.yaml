@@ -1,7 +1,7 @@
 # Pack reference. It can only contain letters, digits and underscores.
 ref: vm_action
-name: VM Task Queue
-description: VM Task Queue.
+name: VM Action List
+description: VM Action List
 keywords:
     - login
     - top 5 process
