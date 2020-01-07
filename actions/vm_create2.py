@@ -18,7 +18,7 @@ haikunator = Haikunator()
 LOCATION = 'Southeast Asia'
 
 # Resource Group
-GROUP_NAME = 'azure-sample-group-virtual-machines1'
+GROUP_NAME = 'azure-sample-group-virtual-machines2'
 
 # Network
 VNET_NAME = 'azure-sample-vnet2'
