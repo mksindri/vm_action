@@ -218,7 +218,7 @@ class VmCreate(Action):
         print('\nDisc Utilisation of the vm')
         get_disc_utilisation(compute_client)
         get_disc_utilisation.wait(60)
-        
+
         print('\nCPU Utilisation of the vm')
         get_cpu_utilisation(compute_client)
         get_cpu_utilisation.wait(60)
