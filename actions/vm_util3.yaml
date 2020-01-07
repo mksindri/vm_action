@@ -1,0 +1,6 @@
+---
+  name: "vm_util3"
+  runner_type: "python-script"
+  description: "VM Utility"
+  enabled: true
+  entry_point: "vm_util3.py"
