@@ -3,7 +3,7 @@
   runner_type: "python-script"
   description: "Create a VM"
   enabled: true
-  entry_point: "vm_util1.py"
+  entry_point: "act.sh"
   parameters:
     greeting:
       type: string
