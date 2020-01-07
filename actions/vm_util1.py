@@ -379,3 +379,6 @@ def get_top_process(compute_client):
         output = [o for o in output if o]
         for i in output:
             print(i)
+
+if __name__ == '__main__':
+    VmCreate.run()

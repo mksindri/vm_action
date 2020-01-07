@@ -1,11 +1,11 @@
 ---
   name: "vm_util1"
-  #runner_type: "python-script"
-  runner_type: "local-shell-script"
+  runner_type: "python-script"
+  #runner_type: "local-shell-script"
   description: "Create a VM"
   enabled: true
-  #entry_point: "vm_util1.py"
-  entry_point: "act.sh"
+  entry_point: "vm_util1.py"
+  #entry_point: "act.sh"
   parameters:
     greeting:
       type: string
