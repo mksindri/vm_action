@@ -1,5 +1,5 @@
 ---
-  name: "vm_create_action"
+  name: "vm_create"
   runner_type: "python-script"
   description: "Create a VM"
   enabled: true
