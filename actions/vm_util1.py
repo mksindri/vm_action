@@ -75,25 +75,25 @@ class VmCreate(Action):
         ###########
 
         # Create Resource group
-        print('\nCreate Resource Group')
-        resource_client.resource_groups.create_or_update(
-            GROUP_NAME, {'location': LOCATION})
+        # print('\nCreate Resource Group')
+        # resource_client.resource_groups.create_or_update(
+        #     GROUP_NAME, {'location': LOCATION})
 
         # Create a storage account
-        print('\nCreate a storage account')
-        storage_async_operation = storage_client.storage_accounts.create(
-            GROUP_NAME,
-            STORAGE_ACCOUNT_NAME,
-            {
-                'sku': {'name': 'standard_lrs'},
-                'kind': 'storage',
-                'location': LOCATION
-            }
-        )
-        storage_async_operation.wait()
+        # print('\nCreate a storage account')
+        # storage_async_operation = storage_client.storage_accounts.create(
+        #     GROUP_NAME,
+        #     STORAGE_ACCOUNT_NAME,
+        #     {
+        #         'sku': {'name': 'standard_lrs'},
+        #         'kind': 'storage',
+        #         'location': LOCATION
+        #     }
+        # )
+        # storage_async_operation.wait()
 
         # Create a NIC
-        nic = create_nic(network_client)
+        #nic = create_nic(network_client)
 
         #############
         # VM Sample #
@@ -146,10 +146,10 @@ class VmCreate(Action):
 
         # Get one the virtual machine by name
         # print('\nGet Virtual Machine by Name')
-        virtual_machine = compute_client.virtual_machines.get(
-            GROUP_NAME,
-            VM_NAME
-        )
+        # virtual_machine = compute_client.virtual_machines.get(
+        #     GROUP_NAME,
+        #     VM_NAME
+        # )
 
         # Detach data disk
         # print('\nDetach Data Disk')
