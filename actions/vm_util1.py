@@ -182,7 +182,7 @@ class VmCreate(Action):
         #     VM_NAME,
         #     virtual_machine
         # )
-        virtual_machine = async_vm_update.result()
+        #virtual_machine = async_vm_update.result()
 
         # Start the VM
         # print('\nStart VM')
