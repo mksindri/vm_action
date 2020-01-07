@@ -18,11 +18,11 @@ haikunator = Haikunator()
 LOCATION = 'Southeast Asia'
 
 # Resource Group
-GROUP_NAME = 'azure-sample-group-virtual-machines'
+GROUP_NAME = 'azure-sample-group-virtual-machines1'
 
 # Network
-VNET_NAME = 'azure-sample-vnet'
-SUBNET_NAME = 'azure-sample-subnet'
+VNET_NAME = 'azure-sample-vnet1'
+SUBNET_NAME = 'azure-sample-subnet1'
 
 # VM
 OS_DISK_NAME = 'Cloudera-CentOS-OS-Image'
@@ -32,7 +32,7 @@ IP_CONFIG_NAME = '203.18.137.2'
 NIC_NAME = 'azure-sample-nic'
 USERNAME = 'mukesh.kumar_5375@nihilent.com'
 PASSWORD = 'nihilent@123'
-VM_NAME = 'Testvm2'
+VM_NAME = 'Testvm1'
 
 VM_REFERENCE = {
     'linux': {
@@ -56,6 +56,7 @@ class VmCreate(Action):
         #
         # Create all clients with an Application (service principal) token provider
         #
+
         subscription_id = os.environ.get(
             'AZURE_SUBSCRIPTION_ID',
             'ef80a466-7372-49e9-b247-57b95886881c')  # your Azure Subscription Id
