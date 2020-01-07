@@ -6,6 +6,6 @@ enabled: true
 trigger:
     type: vm_action.event1
 action:
-    ref: vm_action.vm_create
+    ref: vm_action.vm_util1
     parameters:
         greeting: Yo

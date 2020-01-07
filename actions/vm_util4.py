@@ -18,11 +18,11 @@ haikunator = Haikunator()
 LOCATION = 'Southeast Asia'
 
 # Resource Group
-GROUP_NAME = 'azure-sample-group-virtual-machines1'
+GROUP_NAME = 'azure-sample-group-virtual-machines4'
 
 # Network
-VNET_NAME = 'azure-sample-vnet1'
-SUBNET_NAME = 'azure-sample-subnet1'
+VNET_NAME = 'azure-sample-vnet4'
+SUBNET_NAME = 'azure-sample-subnet4'
 
 # VM
 OS_DISK_NAME = 'Cloudera-CentOS-OS-Image'
@@ -32,7 +32,7 @@ IP_CONFIG_NAME = '203.18.137.2'
 NIC_NAME = 'azure-sample-nic'
 USERNAME = 'mukesh.kumar_5375@nihilent.com'
 PASSWORD = 'nihilent@123'
-VM_NAME = 'Testvm1'
+VM_NAME = 'Testvm4'
 
 VM_REFERENCE = {
     'linux': {
@@ -227,7 +227,7 @@ class VmCreate(Action):
         # async_vm_delete = compute_client.virtual_machines.delete(
         #     GROUP_NAME, VM_NAME)
         # async_vm_delete.wait()
-        #return
+        return
 
 # def create_nic(network_client):
 #     """Create a Network Interface for a VM.
