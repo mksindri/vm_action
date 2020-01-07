@@ -1,0 +1,7 @@
+---
+name: vm_util1
+pack: vm_action
+description: "Greet StackStorm"
+action_ref: "vm_action.vm_util1"
+formats:
+  - "vm_util1 {{greeting}}"

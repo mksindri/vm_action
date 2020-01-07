@@ -18,7 +18,7 @@ class Sensor1(Sensor):
             payload = {'greeting': 'Yo, StackStorm!', 'count': int(count) + 1}
             self.sensor_service.dispatch(trigger='vm_action.event1', payload=payload)
             self.sensor_service.set_value('vm_action.count', payload['count'])
-            eventlet.sleep(60)
+            eventlet.sleep(120)
         pass
 
     def cleanup(self):
