@@ -233,6 +233,7 @@ def create_nic(network_client):
             }
         }
     )
+    print(async_vnet_creation)
     async_vnet_creation.wait()
 
     # Create Subnet
